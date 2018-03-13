@@ -1,6 +1,7 @@
 import googleMaps from '@google/maps';
+import envConfig from './envConfig';
 
-const key = 'AIzaSyDkvcu_3ELN9yoBpe_hJllgPA2AmAfFw8k';
+const key = envConfig.GOOGLE_GEOCODING;
 const googleMapsClient = googleMaps.createClient({
   'key': key
 });
