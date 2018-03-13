@@ -6,7 +6,6 @@
 
 ```
 npm run app
-
 ```
 
 # Install 
@@ -97,3 +96,14 @@ import yourBotNameBot from './bots/yourBotNameBot';
 app.chat.bot.add(yourBotNameBot);
 
 ```
+
+# Bots commands
+
+| Bot command | Parameter
+| --- | --- | ---
+| /carrefour stores | 
+| /uber estimate | start, end
+| /youtube find | query
+| /twitter lasttweet | name
+
+
