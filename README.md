@@ -2,7 +2,7 @@
 
 # Run the server
 
-* Server is running on port `8090`
+* Server is running on port `8091`
 
 ```
 npm run app
