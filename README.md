@@ -35,6 +35,7 @@ URI : https://developers.google.com/maps/documentation/geocoding
 # Create a new custom bot
 
 * Create a new file inside `app/bots/{your_bot_name}Bot.js`
+* Server is running on port `8090`
 
 ### Skeleton file
 
