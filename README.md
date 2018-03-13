@@ -100,10 +100,17 @@ app.chat.bot.add(yourBotNameBot);
 # Bots commands
 
 | Bot command | Parameter
-| --- | --- | ---
+| --- | --- 
 | /carrefour stores | 
 | /uber estimate | start, end
 | /youtube find | query
 | /twitter lasttweet | name
 
+# Examples commands
 
+```
+/uber estimate --start paris 1 --end paris 10
+/twitter lasttweet --name contact_school
+/youtube find --query 44 more
+/carrefour stores
+```
