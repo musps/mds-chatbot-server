@@ -82,7 +82,7 @@ const yourBotNameBot = {
 }
 
 export default yourBotNameBot;
-``
+```
 
 * Then add your fresh bot inside the `app/app.js` file.
 
