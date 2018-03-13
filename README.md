@@ -1,5 +1,11 @@
 # MDS CHAT BOT -> SERVER
 
+# Run the server
+
+```
+npm run app
+```
+
 # Install 
 
 * Copy the `.env-example` file as `.env` and set the available bot api key.
@@ -60,12 +66,23 @@ const yourBotNameBot = {
         // --- HERE THE RUN CODE.
       }
     }
+
+    // ---> Example with parameter (live)
+    {
+      'name': 'hello'
+      'params': [
+        'firstname'
+      ],
+      'run': (app, socket, params) => {
+        console.log(`Hello ${params.firstname}`);
+      }
+    }
   ]
   }
 }
 
 export default yourBotNameBot;
-```
+``
 
 * Then add your fresh bot inside the `app/app.js` file.
 

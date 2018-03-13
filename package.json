@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "app": "./node_modules/.bin/babel-node ./node_modules/.bin/gulp",
     "gulp": "./node_modules/.bin/babel-node ./node_modules/.bin/gulp",
     "debug": "DEBUG=log* ./node_modules/.bin/babel-node app/app.js",
     "debug-eslint-node": "eslint --env node app"
